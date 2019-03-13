@@ -10,10 +10,16 @@
 
 ## about framework
 
-使用 https://github.com/jadennn/flutter_ijk 项目中提供的源码进行编译, 这部分源码的修改没有提供 LICENSE
+使用 https://github.com/jadennn/flutter_ijk 项目中提供的源码进行编译, 这部分源码的修改目前没有提供 LICENSE
 
 编译的完整配置文件可以查看 `config/module.sh`文件
 
-编译过程中加入 OpenSSL 的支持
+编译完成后在framework中加入了openssl以便于支持https协议
 
-这里只是加入了一些相对常用的选项,如果你需要使用的选项
+这里只是加入了一些相对常用的选项,如果你需要使用其他的选项或需要根据你自己的业务情况进行剪裁，你需要自行编译ffmpeg
+
+目前的库同时支持iOS真机和模拟器，是通用库
+
+## LICENSE
+
+Under MIT style
