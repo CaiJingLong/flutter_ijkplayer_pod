@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
                    DESC
   
   spec.homepage     = "https://github.com/CaiJingLong/flutter_ijkplayer_pod"
-  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
+  spec.license      = { :type => 'MIT', :file => 'IJKMediaFramework.framework/LICENSE' }
   spec.author             = { "Caijinglong" => "cjl_spy@163.com" }
   spec.source       = { :http => "https://github.com/CaiJingLong/flutter_ijkplayer_pod/releases/download/0.0.4/IJKMediaFramework.tar.xz"}
   spec.vendored_frameworks = 'IJKMediaFramework.framework'
