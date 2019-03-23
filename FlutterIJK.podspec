@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/CaiJingLong/flutter_ijkplayer_pod"
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author             = { "Caijinglong" => "cjl_spy@163.com" }
-  spec.source       = { :http => "https://github.com/CaiJingLong/flutter_ijkplayer_pod/releases/download/0.0.8/IJKMediaFramework.txz"}
+  spec.source       = { :git => "https://github.com/CaiJingLong/flutter_ijkplayer_pod.git",:tag =>'0.0.8'}
   spec.vendored_frameworks = 'IJKMediaFramework.framework'
   spec.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer"
   spec.libraries   = "bz2", "z", "stdc++"
@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '8.0'
   spec.requires_arc = true
 
-  # spec.prepare_command = <<-CMD
-  #   tar -xvf ./IJKMediaFramework.txz
-  # CMD
+  spec.prepare_command = <<-CMD
+    tar -xvf ./IJKMediaFramework.txz
+  CMD
 end
