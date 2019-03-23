@@ -19,4 +19,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '8.0'
   spec.requires_arc = true
 
+  # spec.prepare_command = <<-CMD
+  #   tar -xvf ./IJKMediaFramework.txz
+  # CMD
 end
