@@ -2,6 +2,17 @@
 
 [ijkplayer](https://github.com/bilibili/ijkplayer) for flutter
 
+这个库有两个仓库镜像
+
+[azure](https://dev.azure.com/cjlspy/_git/flutter_ijkplayer_pod)  
+[github](https://github.com/CaiJingLong/flutter_ijkplayer_pod)
+
+从 0.1.0 版本开始, pod 的 git 地址迁移至 azure
+
+因为 azure 的中国境内访问速度略快于 github
+
+github 100kb/s 以下, azure 1.5M/s 左右, 开代理的话相差不大
+
 ## 目的
 
 主要是因为在 flutter 中将 framework 完整的上传 pub 感觉太大了
