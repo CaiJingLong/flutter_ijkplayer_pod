@@ -16,7 +16,8 @@
 
 - 加入了视频角度旋转后的通知,以便于 flutter 端能及时获取视频方向
 - 按照 https://github.com/bilibili/ijkplayer/issues/3643#issuecomment-333274685 中提供的方法,增加了两处`[CATransaction flush]`的调用以支持 11.0 后的真机(亲测 12.1.4 真机可用)
-- 增加了一个tcp速度的参数
+- 增加了一个 tcp 速度的参数
+- 截图相关的代码
 
 完整代码可[查看这里](https://gitee.com/kikt/ijkplayer_thrid_party)
 
@@ -39,7 +40,7 @@
 如果是 ss/ssr 请自己查询如何代理终端(我这里是输入  
 `$ export http_proxy=http://127.0.0.1:1081;export https_proxy=http://127.0.0.1:1081;`)
 
-clone 项目,这个我放在gitee了
+clone 项目,这个我放在 gitee 了
 `$ git clone https://gitee.com/kikt/ijkplayer_thrid_party ijkplayer`
 
 这里根据你需要的编译选项修改`module.sh`,根据自己的需要来剪裁可以有效降低应用包体积
