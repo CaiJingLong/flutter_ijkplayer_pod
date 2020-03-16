@@ -1,5 +1,11 @@
 # flutter_ijkplayer_pod
 
+## 归档
+
+本项目不再维护更新的版本信息，FlutterIJK的pod版本可以到 https://gitee.com/kikt/ijkplayer_thrid_party/tree/master/ios/pod 或 cocoapod 官网查看FlutterIJK的版本信息, 对应的源码也在相同仓库
+
+## 说明
+
 [ijkplayer](https://github.com/bilibili/ijkplayer) for flutter
 
 这个库有两个仓库镜像
